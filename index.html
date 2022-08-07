@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio de enciptador</title>
+    <meta name="descripcion" content="Pagina web para encriptar por parte de Alura">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/4b435df3ea.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="barra">
+                <a href="index.html" class="logo">
+                    <img class="logo__logo" src="img/Vector.svg" alt="logo" >
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="campo-container">
+            <div class="campo">
+                <textarea  id="ingresoT" rows="10" placeholder="Ingrese el texto aqui" ></textarea>
+            </div>
+            <div class="atencion">
+                    <img src="img/Icon.svg" alt="Atencion">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="button">
+                <div class="button-container">
+                    <button  id="encriptar">Encriptar</button>
+                    <button  id="desencriptar">Desencriptar</button>
+                </div>
+            </div>
+        </div>
+            <div class="respuesta">
+                <div class="respuesta__container">
+                    <div class="contenido"></div>
+                        <img  id="busqueda-img" src="img/Muñeco.svg" alt="Busqueda">
+                        <div id="ocultar">
+                            <h3>Ningún mensaje fue encontrado</h3>
+                            <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                        </div>
+                        <textarea  id="resultado" rows="10" readonly></textarea>
+                        <button class="btn" id="copiar">copiar</button>
+                    </div>
+                </div>
+    </main>
+    <footer class="footer">
+            <div class="footer-container">
+            <a href="https:www.linkedin.com/in/daniel-alexis-sanduay" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/FFdaniiel" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <h4> alura latam / challenge</h4>
+        </div>
+    </footer>
+    <script src="js/js.js"></script>
+</body>
+</html>
+
+
