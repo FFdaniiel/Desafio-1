@@ -1,3 +1,3 @@
 # Desafio-1
 Challenge de alura  - Encriptador
-https://statuesque-gecko-72192d.netlify.app
+https://ffdaniiel.github.io/Desafio-1/
